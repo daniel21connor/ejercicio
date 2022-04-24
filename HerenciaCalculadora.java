@@ -6,7 +6,7 @@ public class HerenciaCalculadora {
     static  Scanner scanner=new Scanner (System.in);
     public static void main(String[] args) {
             System.out.print("\n Bienvenidos a calculadora especial:");
-    System.out.print("\n 1. factorial ");
+    System.out.print("\n 1. raiz ");
     System.out.print("\n 2. potencia ");
     System.out.print("\n 3. area");
     System.out.print("\n 4. dia de la semaana");
@@ -22,7 +22,7 @@ public class HerenciaCalculadora {
          case 1 -> { 
              System.out.print("digite un numero");
              double numer = scanner.nextInt();
-             System.out.println ( objetoDos.numeroFactorial(numer));
+             System.out.println ( objetoDos.raizCuadrada(numer));
                }
           
          case 2 -> {
@@ -39,7 +39,7 @@ public class HerenciaCalculadora {
               int cantidad1= scanner.nextInt();
                System.out.println("Digite la cantidad de numero");
               int cantidad= scanner.nextInt();
-           System.out.print(objetoDos.area(cantidad, cantidad1));
+           System.out.print( objetoDos.area(cantidad, cantidad1));
               }
 
       

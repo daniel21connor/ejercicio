@@ -1,13 +1,8 @@
 
 package herenciacalculadora;
 
-public class Calculadora {
-     public double raizCuadrada(double raiz){
-        
-     double num = Math.sqrt(raiz);
-     return  num;
-     
-    }
+public class Calculadora extends Calculadora2  {
+    
     public double numeroFactorial(double numero ) {
     double factorial  = 1;
       while (numero!=0){
